@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2024-09-10T21:15:18Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "rectificador"
+        },
+        "Owner": "Jaidiver Gomez <jaidiver.gomez@udea.edu.co>",
+        "Size": {
+            "X": 63.966747,
+            "Y": 71.092363
+        }
+    }
+}
