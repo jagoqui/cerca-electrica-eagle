@@ -15534,9 +15534,9 @@ Grid 5.00 mm&lt;p&gt;
 <attribute name="NAME" x="30.48" y="154.94" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="30.48" y="152.4" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="VIN" gate="-1" x="-38.1" y="139.7" smashed="yes"/>
-<instance part="VIN" gate="-2" x="-38.1" y="132.08" smashed="yes">
-<attribute name="VALUE" x="-38.1" y="136.017" size="1.778" layer="96"/>
+<instance part="VIN" gate="-1" x="-38.1" y="134.62" smashed="yes"/>
+<instance part="VIN" gate="-2" x="-38.1" y="139.7" smashed="yes">
+<attribute name="VALUE" x="-40.64" y="143.637" size="1.778" layer="96"/>
 </instance>
 <instance part="X2" gate="-1" x="73.152" y="155.956" smashed="yes" rot="R180"/>
 <instance part="X2" gate="-2" x="55.372" y="120.396" smashed="yes"/>
@@ -15550,24 +15550,21 @@ Grid 5.00 mm&lt;p&gt;
 <nets>
 <net name="FASE" class="0">
 <segment>
-<pinref part="VIN" gate="-1" pin="KL"/>
-<junction x="-33.02" y="139.7"/>
-<label x="-45.72" y="137.16" size="1.778" layer="95"/>
+<label x="-45.72" y="139.7" size="1.778" layer="95"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <junction x="-12.7" y="149.86"/>
-<wire x1="-33.02" y1="139.7" x2="-33.02" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="149.86" x2="-12.7" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="5.08" y="149.86"/>
 <wire x1="-12.7" y1="149.86" x2="5.08" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="VIN" gate="-2" pin="KL"/>
+<junction x="-33.02" y="139.7"/>
+<wire x1="-33.02" y1="139.7" x2="-33.02" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NEUTRO" class="0">
 <segment>
-<pinref part="VIN" gate="-2" pin="KL"/>
-<junction x="-33.02" y="132.08"/>
-<label x="-48.26" y="129.54" size="1.778" layer="95"/>
-<wire x1="-33.02" y1="132.08" x2="-33.02" y2="124.46" width="0.1524" layer="91"/>
+<label x="-48.26" y="134.62" size="1.778" layer="95"/>
 <pinref part="C3" gate="G$1" pin="2"/>
 <junction x="-17.78" y="124.46"/>
 <wire x1="-33.02" y1="124.46" x2="-17.78" y2="124.46" width="0.1524" layer="91"/>
@@ -15584,6 +15581,9 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="0" y1="124.46" x2="-7.62" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="0" y1="132.08" x2="0" y2="124.46" width="0.1524" layer="91"/>
 <junction x="0" y="124.46"/>
+<pinref part="VIN" gate="-1" pin="KL"/>
+<junction x="-33.02" y="134.62"/>
+<wire x1="-33.02" y1="134.62" x2="-33.02" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="L" class="0">
